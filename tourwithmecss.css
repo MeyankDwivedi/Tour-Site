@@ -1,0 +1,278 @@
+.companylogo
+{
+  width: 12%;  
+}
+body
+{
+    margin-right: 0%;
+    padding: 0%;
+    position: relative;
+}
+#companynamelogo
+{
+    color: #E60965;
+    font-family: 'Satisfy', cursive;
+    font-size: 1.5rem;
+}
+.navbar
+{
+  padding: 0% 10%;
+}
+.introduction
+{
+  background-color:#FFD32D;
+  overflow: hidden;
+  padding: 10% 10% 7.5% 10%;
+  margin: 0%;
+  position: relative;
+  z-index: 1;
+}
+#slogan
+{
+  font-family: 'Barriecito', cursive;
+  font-size: 3.3rem;
+  padding:10% 0% 5% 0%;
+}
+img#travelfriendspic
+{
+  margin:0%;
+  width: 100%;
+  border-radius: 10%;
+  border-style: solid;
+  border-width: 10px;
+  border-color: black ;
+}
+.features
+{
+  text-align: center;
+  background-color:#008E89;
+  position: relative;
+}
+.divhead
+{
+  margin: 3% auto;
+  padding: 3%;
+  font-family: 'Titan One', cursive;
+  position: relative;
+  z-index: 2;
+}
+.divhead:hover
+{
+  color: #FFD32D;
+}
+.icontitles
+{
+  font-size: medium;
+  padding: 5%;
+  font-family: 'Arimo', sans-serif;
+}
+.download-button
+{
+  margin: 0% 5% 16% 0%;
+}
+.icons:hover
+{
+  color: #FFD32D;
+}
+.slide_button:hover
+{
+  color: #FFD32D; !important
+}
+#Site-Images
+{
+  transform: rotate(5deg);
+  padding: 10% 5%;  
+}
+.Actors
+{
+  border-radius: 50%;
+  width: 10%;
+}
+#Reviewsection
+{
+  padding: 5% 10% 5% 10%;
+}
+.reviewcomment
+{
+  font-weight: bold;
+}
+.Pricing
+{
+  background-color: #085E7D;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+.Price-Cards
+{
+  padding: 0% 10% 5% 10%;
+}
+.Price-Card-Section
+{
+  margin: 0%;
+  padding: 0% 10%;
+  cursor: pointer;
+}
+p
+{
+  font-size: small;
+}
+.card:hover
+{
+  color: #FFD32D;
+}
+.DivWallpaper
+{
+  opacity: 30%;
+  width: 130%;
+  height: 130%;
+  position: absolute;  
+  padding: 0%;
+  top: -20%;
+  left: 0%;
+}
+#slogan:hover
+{
+  color: black;
+}
+#flyingplanegif
+{
+  position: absolute;
+  transform: rotate(30deg);
+  top: 2%;
+  right: 5%;
+  height: 30%;
+  z-index: 0;
+  animation-name: flyingplane;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes flyingplane {
+  0%{top: 90%; left: 10%;}
+  25%{top: 75%; left: 25%;}
+  75%{top: 25; left: 75%;}
+  100%{top: 0%; left: 100%;}
+}
+
+.icons
+{
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+img.movingtrain
+{
+  position: absolute;
+  z-index: 2;
+  height: 30%;
+  width: 30%;
+  bottom: -0.5%;
+  animation-name: movingtraingif;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+@keyframes movingtraingif {
+  0%{left: 100%;}
+  25%{left: 75%;}
+  75%{left: 25%;}
+  100%{left: 0%;}
+}
+.Explore
+{
+  padding: 2% 10% 0% 10%;
+  background-color:#548CFF;
+  position: relative;
+}
+#Countries
+{
+  padding: 0%;
+}
+.Country-Images
+{
+  max-height: 150px;
+  border-radius: 10%;
+  border: 2px solid white;
+  object-fit: cover;
+}
+.Country-Pics
+{
+  height: 20%;
+  width: 20%;
+  padding: 2% 2%;
+}
+.Country-Pics:hover
+{
+  color: #FFD32D;
+}
+.Explore
+{
+  text-align: center;
+}
+.countrynames
+{
+  color: antiquewhite;
+}
+.Contacts-Div
+{
+  background-color: black;
+  color:antiquewhite ;
+  text-align: center;
+}
+.Contacts
+{
+  padding: 2% 10%;
+}
+.social-media
+{
+  padding: 12% 5%;
+}
+.social-media-icon
+{
+  padding: 2%;
+}
+.list_footer
+{
+  text-align: left;
+  text-decoration:none;
+  color:aliceblue ;
+}
+#Globe-Gif
+{
+  position: absolute;
+  width: 20%;
+  top: 5%;
+  left: 0.01%;
+  transform: rotate(-20deg);
+}
+
+@media(max-width: 680px)
+{
+  .divhead{
+    font-size: 20px;
+  }
+  #slogan
+  {
+  font-size: 2.0rem;
+  padding:25% 0% 2% 0%;
+  text-align: center;
+  }
+  .Price-Card-Section
+  {
+  margin: 0%;
+  padding: 0% 5% 10% 5%;
+  }
+  #flyingplanegif
+  {
+  position: absolute;
+  transform: rotate(45deg);
+  background-color: transparent;
+  top: 50%;
+  right: 10%;
+  height: 10%;
+  z-index: 0;
+  }
+  .navbar
+  {
+    background-color:#085E7D;
+  }
+}
